@@ -11,6 +11,13 @@
 
 Website yang dibangun untuk organisasi anime loverz
 
+## Cara menggunakan
+
+- Clone project dan beri chmod 777 bila perlu
+- ketik `composer install` didalam project nya, untuk menginstall package / lib yang tidak terinstall
+- ubah nama file .env.example menjadi .env dan isi konfigurasi pada databasenya
+- ketik `php artisan migrate` atau `php artisan migrate:fresh` jika didatabase sebelumnya sudah ada table yang sama
+
 ## Lisensi
 
 Kerangka kerja Laravel adalah perangkat lunak sumber terbuka yang dilisensikan di bawah [lisensi MIT](https://opensource.org/licenses/MIT).
