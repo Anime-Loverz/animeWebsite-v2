@@ -16,7 +16,7 @@ Website yang dibangun untuk organisasi anime loverz
 - Clone project dan beri chmod 777 bila perlu
 - ketik `composer install` didalam project nya, untuk menginstall package / lib yang tidak terinstall
 - ubah nama file .env.example menjadi .env dan isi konfigurasi pada databasenya
-- ketik `php artisan migrate` atau `php artisan migrate:fresh` jika didatabase sebelumnya sudah ada table yang sama
+- ketik `php artisan migrate --seed` atau `php artisan migrate:fresh --seed` jika didatabase sebelumnya sudah ada table yang sama
 
 ## Lisensi
 
